@@ -19,7 +19,9 @@ export default function App() {
     handleSubmit,
     formState: { errors }
   } = useForm<FormValues>();
+
   renderCount++;
+
   const onSubmit = (data: FormValues) => {
     console.log(data);
   };
